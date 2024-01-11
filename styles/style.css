@@ -81,3 +81,7 @@ body {
     font-family: 'Inter', sans-serif;
     color: white;
 }
+br {
+    display: block;
+    margin: 40px 0;
+ }
