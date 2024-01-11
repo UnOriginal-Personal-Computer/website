@@ -81,10 +81,3 @@ body {
     font-family: 'Inter', sans-serif;
     color: white;
 }
-hr.roundedline {
-    border-top: 20px solid #bbb;
-    border-radius: 20px;
-    border-style: solid;
-    margin: 0;
-}
-
