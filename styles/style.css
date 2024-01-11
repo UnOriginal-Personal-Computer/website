@@ -82,7 +82,7 @@ body {
     color: white;
 }
 .roundedline {
-    border-top: 10px solid #bbb;
-    border-radius: 10px;
+    border-top: 20px solid #bbb;
+    border-radius: 20px;
     border-style: solid;
 }
