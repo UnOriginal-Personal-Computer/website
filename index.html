@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>UnOriginal Personal Computer</title>
-        <link rel="icon" type="image/x-icon" href="https://assets.upcg.xyz/brand/UPCG.png">
-        <!--Googleapis links-->
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap">
-        <!--External stylesheet links-->
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
-    </head>
 
-    <body>
-        <div class="header">
-            <a href="./index.html"><span>UPCG</span></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UnOriginal Personal Computer</title>
+    <link rel="icon" type="image/x-icon" href="https://assets.upcg.xyz/brand/UPCG.png">
+    <!-- Googleapis links -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <!-- External stylesheet links -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
 
-            <div class="ac-ln-action ac-ln-action-menucta">
-                <label for="ac-ln-menustate" class="ac-ln-menucta">
-                     <span class="ac-ln-menucta-chevron"></span>
-                </label>
-            </div>
+<body>
+    <div class="header">
+        <a href="./index.html"><span>UPCG</span></a>
+
+        <div class="ac-ln-action ac-ln-action-menucta">
+            <label for="ac-ln-menustate" class="ac-ln-menucta">
+                <span class="ac-ln-menucta-chevron"></span>
+            </label>
         </div>
-        <h2 class="titletexthome" style="font-size: 60px;">Welcome to</h2>
-        <h1 class="titletexthome" style="font-size: 70px;">UnOriginal Personal Computer Group</h1>
+    </div>
+    <h2 class="titletexthome" style="font-size: 60px;">Welcome to</h2>
+    <h1 class="titletexthome" style="font-size: 70px;">UnOriginal Personal Computer Group</h1>
 
-        <script>
-            jQuery('a').click( function(e) {
-                e.preventDefault()
-                jQuery('.ac-ln-menucta-chevron').toggleClass('open')
-            })
-        </script>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('a').click(function (e) {
+                e.preventDefault();
+                $('.ac-ln-menucta-chevron').toggleClass('open');
+            });
+        });
+    </script>
+</body>
+
 </html>
