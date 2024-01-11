@@ -81,8 +81,10 @@ body {
     font-family: 'Inter', sans-serif;
     color: white;
 }
-.roundedline {
+hr.roundedline {
     border-top: 20px solid #bbb;
     border-radius: 20px;
     border-style: solid;
+    margin: 0;
 }
+
