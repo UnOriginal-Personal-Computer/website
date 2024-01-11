@@ -50,19 +50,23 @@ body {
     text-align: center;
 }
 
-/* Button styles */
 .button-container {
     display: flex;
-    justify-content: space-around;
-    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.button a {
+    text-decoration: none;
 }
 
 .button {
     text-align: center;
-    padding: 10px;
-    border: 2px solid #000;
-    border-radius: 8px;
-    width: 150px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #008b8b;
 }
 
 .button img {
@@ -75,4 +79,5 @@ body {
     display: block;
     margin-top: 10px;
     font-family: 'Inter', sans-serif;
+    color: white;
 }
