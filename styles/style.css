@@ -86,3 +86,11 @@ br {
     display: block;
     margin: 40px 0;
 }
+h1.titletexthome {
+    text-align: center;
+    color: #222222;
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Alata', sans-serif;
+    width: 100%;
+}
