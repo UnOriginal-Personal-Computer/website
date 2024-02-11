@@ -71,6 +71,7 @@ body {
 }
 
 .button a img {
+    display: inline-block;
     max-width: 25%;
     height: auto;
     border-radius: 50%;
