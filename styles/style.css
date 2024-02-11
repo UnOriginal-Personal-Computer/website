@@ -58,7 +58,7 @@ body {
     width: 80vh;
 }
 
-.button {
+.button-container .button {
     text-align: center;
     padding: 20px;
     border: none;
@@ -66,11 +66,11 @@ body {
     background-color: #008b8b;
 }
 
-.button a {
+.button-container .button a {
     text-decoration: none;
 }
 
-.button a img {
+.button-container .button a img {
     display: inline-block;
     max-width: 25%;
     height: auto;
@@ -78,12 +78,12 @@ body {
     transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-.button a img:hover
+.button-container .button a img:hover
 {
     transform: scale(1.14), translateY(-1.14);
 }
 
-.button span {
+.button-container .button span {
     display: block;
     margin-top: 10px;
     font-family: 'Inter', sans-serif;
