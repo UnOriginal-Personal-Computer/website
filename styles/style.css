@@ -58,10 +58,6 @@ body {
     width: 80vh;
 }
 
-.button a {
-    text-decoration: none;
-}
-
 .button {
     text-align: center;
     padding: 20px;
@@ -70,10 +66,20 @@ body {
     background-color: #008b8b;
 }
 
-.button img {
+.button a {
+    text-decoration: none;
+}
+
+.button a img {
     max-width: 25%;
     height: auto;
     border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.button a img:hover
+{
+    transform: scale(1.14), translateY(-1.14);
 }
 
 .button span {
@@ -82,10 +88,12 @@ body {
     font-family: 'Inter', sans-serif;
     color: white;
 }
+
 br {
     display: block;
     margin: 40px 0;
 }
+
 h1.titletexthome {
     text-align: center;
     color: #222222;
