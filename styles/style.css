@@ -56,7 +56,8 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("https://cloakassets.quartinal.com/svg/meatswitch.icon.64ae2f43.svg");
-    transform: scale(1.14);
+    background-position: center;
+    width: 100%;
 }
 
 br {
