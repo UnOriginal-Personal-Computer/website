@@ -55,8 +55,8 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("https://cloakassets.quartinal.com/svg/6nie6cndu7jlrii8oga.svg");
-    height: 80vh;
-    width: 80vh;
+    width: 100px;
+    height: 50px;
 }
 
 br {
