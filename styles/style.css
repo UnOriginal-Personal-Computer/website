@@ -54,40 +54,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("https://cloakassets.quartinal.com/svg/6nie6cndu7jlrii8oga.svg");
     height: 80vh;
     width: 80vh;
-}
-
-.button-container .button {
-    text-align: center;
-    padding: 20px;
-    border: none;
-    border-radius: 20px;
-    background-color: #008b8b;
-}
-
-.button-container .button a {
-    text-decoration: none;
-}
-
-.button-container .button a img {
-    display: inline-block;
-    max-width: 25%;
-    height: auto;
-    border-radius: 50%;
-    transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-}
-
-.button-container .button a img:hover
-{
-    transform: scale(1.14), translateY(-1.14);
-}
-
-.button-container .button span {
-    display: block;
-    margin-top: 10px;
-    font-family: 'Inter', sans-serif;
-    color: white;
 }
 
 br {
