@@ -75,3 +75,16 @@ h1.titletexthome {
     font-family: 'Alata', sans-serif;
     width: 100%;
 }
+
+.icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
