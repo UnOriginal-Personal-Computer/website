@@ -54,6 +54,8 @@ body {
     color: #fff;
     font-family: 'Alata', sans-serif;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 255, 128);
 }
 
 .button-container {
