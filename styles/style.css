@@ -46,6 +46,10 @@ body {
     transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
+.header a span:hover {
+    transform: rotate(45deg);
+}
+
 .titletext {
     color: #fff;
     font-family: 'Alata', sans-serif;
