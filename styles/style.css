@@ -11,7 +11,7 @@
 
 body {
     -webkit-font-smoothing: antialiased;
-    background-color: #00d0ff;
+    background: linear-gradient(to right, #1ab754, #1a82bf); 
 }
 
 .header {
@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 100px;
-    background-color: #00ff8c98;
+    background: linear-gradient(to right, #12d55a, #1089d0); 
     backdrop-filter: blur(15px);
     width: 100%;
     height: 20vh;
